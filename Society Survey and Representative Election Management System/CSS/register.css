@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: rgb(69, 27, 27);
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(201, 169, 169);
+}
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+}
+.register-container h2 {
+  color: rgb(69, 27, 27);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+.register-container label {
+  color: rgb(69, 27, 27);
+  margin-bottom: 5px;
+}
+.register-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(201, 169, 169);
+  border-radius: 4px;
+}
+.register-container button {
+  padding: 10px;
+  background-color: rgb(69, 27, 27);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.register-container button:hover {
+  background-color: rgb(201, 169, 169);
+}
+
+.register-container select {
+  color: rgb(69, 27, 27);
+  margin-top: 10px;
+  padding: 10px;
+}
+.register-container select option {
+  padding: 10px;
+}

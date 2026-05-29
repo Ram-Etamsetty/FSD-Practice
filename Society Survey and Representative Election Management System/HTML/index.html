@@ -14,7 +14,7 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Register</a></li>
+        <li><a href="register.html">Register</a></li>
         <li><a href="#">View Polls</a></li>
         <li><a href="#">Login</a></li>
         <li><a href="#">Contact</a></li>
@@ -44,9 +44,21 @@
         </p>
       </section>
       <section class="actions">
-        <button class="viewpoll">View Polls</button>
-        <button class="register">Register</button>
-        <button class="login"><Login></button>
+        <button
+          class="viewpoll"
+          onclick="window.location.href = 'view_polls.html'"
+        >
+          View Polls
+        </button>
+        <button
+          class="register"
+          onclick="window.location.href = 'register.html'"
+        >
+          Register
+        </button>
+        <button class="login" onclick="window.location.href = 'login.html'">
+          Login
+        </button>
       </section>
     </main>
   </body>

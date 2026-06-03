@@ -9,7 +9,7 @@
   <body>
     <heade>
       <h1>User Login</h1>
-      <form class="login-container">
+      <form action="dashboard.html" method="get" class="login-container">
         <label for="email">Email</label>
         <input
           type="email"
@@ -29,7 +29,9 @@
         />
         <br />
         <div class="pwds">
-          <button type="submit">Login</button>
+          <button onclick="window.location.href = 'dashboard.html'">
+            Login
+          </button>
           <a href="register.html">Don't have an account? Register here</a>
           <a href="#forgotpassword">Forgot Password?</a>
         </div>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Society Survey</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center p-4 mb-4">
+      <h1>Society Feedback Survey</h1>
+    </header>
+    <main>
+      <form
+        class="container m-4 border p-4"
+        action="dashboard.html"
+        method="post"
+      >
+        <label for="cleansliness" class="form-label fw-bold"
+          >Cleansliness Satisfaction:</label
+        >
+        <input
+          type="radio"
+          class="form-check-input"
+          id="cleansliness1"
+          name="cleansliness"
+          value="Good"
+          required
+        />
+        <label for="cleansliness1">Good</label>
+        <input
+          type="radio"
+          class="form-check-input"
+          id="cleansliness2"
+          name="cleansliness"
+          value="Fair"
+          required
+        />
+        <label for="cleansliness2" class="form-check-label">Fair</label>
+        <input
+          type="radio"
+          class="form-check-input"
+          id="cleansliness3"
+          name="cleansliness"
+          value="Poor"
+          required
+        />
+        <label for="cleansliness3" class="form-check-label">Poor</label>
+        <br /><br />
+        <label for="security" class="form-label fw-bold"
+          >Security service Feedback:
+        </label>
+        <textarea
+          class="form-control"
+          id="security"
+          name="security"
+          rows="3"
+          placeholder="Your feedback on security services..."
+          required
+        ></textarea>
+        <br />
+        <label class="form-label fw-bold" for="parking">Parking issues:</label>
+        <textarea
+          class="form-control"
+          id="parking"
+          name="parking"
+          rows="3"
+          placeholder="Your feedback on parking issues..."
+          required
+        ></textarea>
+        <br />
+        <label class="form-label fw-bold" for="water"
+          >Water supply feedbac:</label
+        >
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="water1"
+          name="water1"
+          value="Sufficient"
+        />
+        <label for="water1" class="form-check-label">Sufficient</label>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="water2"
+          name="water2"
+          value="Intermittent"
+        />
+        <label for="water2" class="form-check-label">Intermittent</label>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="water3"
+          name="water3"
+          value="Insufficient"
+        />
+        <label for="water3" class="form-check-label">Insufficient</label>
+        <br /><br />
+        <label for="suggestions" class="form-label fw-bold"
+          >Additional Suggestions:</label
+        >
+        <textarea
+          class="form-control"
+          id="suggestions"
+          name="suggestions"
+          rows="3"
+          placeholder="Your additional suggestions for society improvement..."
+          required
+        ></textarea>
+        <button type="submit" class="btn btn-primary mt-3">
+          Submit Feedback
+        </button>
+      </form>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
